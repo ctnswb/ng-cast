@@ -15,7 +15,7 @@ angular.module('video-player')
           }
         );
         this.selectVideo = video => this.currentVideo = video;
-      }
+      };
       this.searchResults('pizza dough');
     }
   });
